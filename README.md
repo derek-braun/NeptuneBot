@@ -1,4 +1,4 @@
-# Neptunes Pride Discord Bot
+# Neptune's Pride Discord Bot
 
 ## Usage Instructions:
 
