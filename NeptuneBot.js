@@ -183,7 +183,7 @@ function formatCompareText(val1, val2, baseString)
 
 function waitingFor(channel)
 {
-	apiRequest(URL + "players", channel, function(json) {
+	apiRequest(URL + "players", channel, (json) => {
 		var waitingArr = [];
 		var message = "";
 		for(var i = 0; i < TOTAL_PLAYERS; i++)
